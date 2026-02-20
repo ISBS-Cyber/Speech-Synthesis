@@ -1,24 +1,33 @@
-
 \begin{frame}{How feasible is it to make an accurate voice representation with few voice samples?}
 
-32 phonetically rich samples can mean a naturalness MOS of up to 3.54, and a speaker similarity MOS of 4.28 can be achieved.
+Five minutes of speech can yield a MOS as high as 3.97, and a speaker similarity MOS of 4.25 \cite{zhou2024thu}.
 
 No. of samples may be more than some affected individuals may actually have.
 
-Limited means of reducing potential long silences and scratching sounds.
+Limited means of reducing potential long silences and scratching sounds \cite{peng2024voicecraft}.
 
-Can be somewhat improved by training with Human Feedback.
+Can be somewhat improved by training with Human Feedback \cite{chen2024humanfeedback}.
 
 \end{frame}
 
 \begin{frame}{"Is similarity to the affected individual's voice samples always ideal?"}
 
-Given the nature of MND, an individual may be unlikely to have sufficient speech recordings.
+Given the nature of MND, an individual may be unlikely to have sufficient speech recordings \cite{ieee2018mnd}.
 
-Late sampling can result in “partial dysarthric pronunciation patterns incorporated into the reconstructed speech”.
+Late sampling can result in “partial dysarthric pronunciation patterns incorporated into the reconstructed speech” \cite{ieee2018mnd}.
 
 Can be mitigated by fine-tuning, but there's no guarantee users will find product expressive.
 
-There is a somewhat of a trade-off between naturalness and speaker similarity.
+There is somewhat of a trade-off between naturalness and speaker similarity \cite{ieee2018mnd}.
+
+\end{frame}
+
+\begin{frame}{"Is speech synthesis reliably accessible to users?"}
+
+To use a speech synthesis model offline, a GPU is often needed \cite{mandeel2022speaker}.
+
+StreamSpeech uses just one CPU core, at cost of lower MCD \cite{ieee2018streams}.
+
+Not appropriate for current use, but a proof of future concept.
 
 \end{frame}
