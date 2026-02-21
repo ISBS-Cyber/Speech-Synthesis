@@ -7,45 +7,45 @@ Warning--to sort, need author or key in ieee2018mnd
 Warning--to sort, need author or key in ieee2018streams
 Warning--empty journal in nhsPowerpoint
 Warning--empty journal in sixthNervePalsy
-You've used 16 entries,
+You've used 25 entries,
             2253 wiz_defined-function locations,
-            616 strings with 6768 characters,
-and the built_in function-call counts, 5041 in all, are:
-= -- 458
-> -- 295
+            655 strings with 8499 characters,
+and the built_in function-call counts, 7741 in all, are:
+= -- 693
+> -- 488
 < -- 0
-+ -- 124
-- -- 106
-* -- 392
-:= -- 834
-add.period$ -- 43
-call.type$ -- 16
-change.case$ -- 101
++ -- 204
+- -- 176
+* -- 596
+:= -- 1317
+add.period$ -- 71
+call.type$ -- 25
+change.case$ -- 157
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 161
-empty$ -- 381
-format.name$ -- 106
-if$ -- 1023
+cite$ -- 29
+duplicate$ -- 248
+empty$ -- 566
+format.name$ -- 176
+if$ -- 1557
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 11
-newline$ -- 78
-num.names$ -- 28
-pop$ -- 122
+int.to.str$ -- 25
+missing$ -- 19
+newline$ -- 124
+num.names$ -- 46
+pop$ -- 179
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 132
 quote$ -- 0
-skip$ -- 112
+skip$ -- 172
 stack$ -- 0
-substring$ -- 214
-swap$ -- 40
+substring$ -- 260
+swap$ -- 58
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
+type$ -- 100
 warning$ -- 4
-while$ -- 39
-width$ -- 18
-write$ -- 149
+while$ -- 57
+width$ -- 27
+write$ -- 234
 (There were 4 warnings)
