@@ -6,45 +6,45 @@ Database file #1: main.bib
 Warning--to sort, need author or key in ieee2018mnd
 Warning--to sort, need author or key in ieee2018streams
 Warning--empty journal in sixthNervePalsy
-You've used 24 entries,
+You've used 25 entries,
             2253 wiz_defined-function locations,
-            654 strings with 8508 characters,
-and the built_in function-call counts, 7696 in all, are:
-= -- 693
-> -- 476
+            661 strings with 8718 characters,
+and the built_in function-call counts, 8160 in all, are:
+= -- 745
+> -- 488
 < -- 0
-+ -- 199
-- -- 172
-* -- 598
-:= -- 1294
-add.period$ -- 69
-call.type$ -- 24
-change.case$ -- 152
++ -- 204
+- -- 176
+* -- 624
+:= -- 1359
+add.period$ -- 73
+call.type$ -- 25
+change.case$ -- 157
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 254
-empty$ -- 569
-format.name$ -- 172
-if$ -- 1560
+cite$ -- 28
+duplicate$ -- 278
+empty$ -- 611
+format.name$ -- 176
+if$ -- 1670
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 19
-newline$ -- 120
-num.names$ -- 44
-pop$ -- 172
+int.to.str$ -- 25
+missing$ -- 20
+newline$ -- 125
+num.names$ -- 46
+pop$ -- 180
 preamble$ -- 1
-purify$ -- 128
+purify$ -- 132
 quote$ -- 0
-skip$ -- 176
+skip$ -- 195
 stack$ -- 0
-substring$ -- 279
-swap$ -- 63
+substring$ -- 316
+swap$ -- 73
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 100
 warning$ -- 3
-while$ -- 58
-width$ -- 26
-write$ -- 228
+while$ -- 63
+width$ -- 27
+write$ -- 240
 (There were 3 warnings)
