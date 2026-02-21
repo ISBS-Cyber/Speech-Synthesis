@@ -7,4 +7,5 @@
 *.gz
 *.toc
 *.bbl
+*.blg
 peer_review.tex
