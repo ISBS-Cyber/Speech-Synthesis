@@ -5,47 +5,46 @@ The style file: acm.bst
 Database file #1: main.bib
 Warning--to sort, need author or key in ieee2018mnd
 Warning--to sort, need author or key in ieee2018streams
-Warning--empty journal in nhsPowerpoint
 Warning--empty journal in sixthNervePalsy
-You've used 25 entries,
+You've used 24 entries,
             2253 wiz_defined-function locations,
-            655 strings with 8499 characters,
-and the built_in function-call counts, 7741 in all, are:
+            654 strings with 8508 characters,
+and the built_in function-call counts, 7696 in all, are:
 = -- 693
-> -- 488
+> -- 476
 < -- 0
-+ -- 204
-- -- 176
-* -- 596
-:= -- 1317
-add.period$ -- 71
-call.type$ -- 25
-change.case$ -- 157
++ -- 199
+- -- 172
+* -- 598
+:= -- 1294
+add.period$ -- 69
+call.type$ -- 24
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 248
-empty$ -- 566
-format.name$ -- 176
-if$ -- 1557
+cite$ -- 27
+duplicate$ -- 254
+empty$ -- 569
+format.name$ -- 172
+if$ -- 1560
 int.to.chr$ -- 0
-int.to.str$ -- 25
+int.to.str$ -- 24
 missing$ -- 19
-newline$ -- 124
-num.names$ -- 46
-pop$ -- 179
+newline$ -- 120
+num.names$ -- 44
+pop$ -- 172
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 128
 quote$ -- 0
-skip$ -- 172
+skip$ -- 176
 stack$ -- 0
-substring$ -- 260
-swap$ -- 58
+substring$ -- 279
+swap$ -- 63
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 4
-while$ -- 57
-width$ -- 27
-write$ -- 234
-(There were 4 warnings)
+type$ -- 96
+warning$ -- 3
+while$ -- 58
+width$ -- 26
+write$ -- 228
+(There were 3 warnings)
