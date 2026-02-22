@@ -1,19 +1,34 @@
 \begin{frame}{Introduction: MND and Speech Impairment}
-    \begin{columns}[t]
-        \begin{column}{0.5\textwidth}
-            \begin{block}{About MND: \cite{NHS2025}}
-                \begin{itemize}
-                    \item MND or Motor Neuron Disease is an incurable and eventually fatal disease. %that can affect anyone at any age, although it typically affects those older than 50. 
-                    \item Caused by a person's motor neurons failing. 
-                    \item It affects:
-                    \begin{itemize}
-                        \item Mobility and movement.
-                        \item Breathing, swallowing, eating and drinking.
-                        \item Emotions, feelings, thoughts and behavior. 
-                        \item Speech and communication (focus for today).
-                    \end{itemize}
-                \end{itemize}
-            \end{block}
+    \begin{block}{About MND \cite{NHS2025}}
+        \begin{itemize}
+            \item MND or Motor Neuron Disease is an incurable and eventually fatal disease. %that can affect anyone at any age, although it typically affects those older than 50. 
+            \item Caused by a person's motor neurons failing. 
+            \item It affects:
+            \begin{itemize}
+                \item Mobility and movement.
+                \item Breathing, swallowing, eating and drinking.
+                \item Emotions, feelings, thoughts and behavior. 
+                \item Speech and communication (focus for today).
+            \end{itemize}
+        \end{itemize}
+    \end{block}
+    \begin{block}{How it affects speech}
+        MND can cause speech to become faint, slurred, or unclear. \cite{Leveque2022} Speech synthesis systems provide an alternative to those losing their speech. %eventually speech becomes impossible. 
+    \end{block}
+\end{frame}
+
+\begin{frame}{Speech Synthesis}
+
+Speech Synthesis is a means by which a computer creates speech from a given text input. \cite{tan2021survey}
+
+A modern Speech Synthesis model is made up of three key components: \cite{tan2021survey}
+\begin{itemize}
+    \item The Text Analysis module %that extracts linguistic features from the given text
+    \item The Acoustic Model %that then translates them into acoustic features
+    \item The Vocoder %that finally synthesizes the waveform from those features
+\end{itemize}
+
+Quality of synthesised speech improved by use of neural networks. \cite{tan2021survey}
 
             \begin{block}{How it affects speech}
                 MND can cause speech to become faint, slurred, or unclear. \cite{Leveque2022} Speech synthesis systems provide an alternative to those losing their speech. %eventually speech becomes impossible. 
@@ -38,7 +53,6 @@
                 \end{itemize}
             \end{block}
         \end{column}
-
         \begin{column}{0.5\textwidth}
             \begin{block}{Advancement:}
                 Quality of synthesised speech improved by use of neural networks. \cite{tan2021survey}
