@@ -1,53 +1,53 @@
 \begin{frame}{How feasible is it to make an accurate voice representation with few voice samples?}
-
-Five minutes of speech can yield a MOS as high as 3.97, and a speaker similarity MOS of 4.25 \cite{zhou2024thu}.
-
-No. of samples may be more than some affected individuals may actually have.
-
-Limited means of reducing potential long silences and scratching sounds \cite{peng2024voicecraft}.
-
-Can be somewhat improved by training with Human Feedback \cite{chen2024humanfeedback}.
-
+    \begin{block}{Training:}
+        \begin{itemize}
+            \item Five minutes of speech can yield a MOS as high as 3.97, and a speaker similarity MOS of 4.25 \cite{zhou2024thu}.
+            \item No. of samples may be more than some affected individuals may actually have.
+            \item Limited means of reducing potential long silences and scratching sounds \cite{peng2024voicecraft}.
+            \item Can be somewhat improved by training with Human Feedback \cite{chen2024humanfeedback}.
+        \end{itemize}
+    \end{block}
 \end{frame}
 
 \begin{frame}{Challenge: Is similarity to the affected individual's voice samples always ideal?}
-
-Given the nature of MND, an individual may be unlikely to have sufficient speech recordings \cite{ieee2018mnd}.
-
-Late sampling can result in “partial dysarthric pronunciation patterns incorporated into the reconstructed speech”.
-
-Can be mitigated by fine-tuning, but there's no guarantee users will find product expressive.
-
-There is somewhat of a trade-off between naturalness and speaker similarity.
-
+    \begin{block}{Difficulties:}
+        \begin{itemize}
+            \item Given the nature of MND, an individual may be unlikely to have sufficient speech recordings \cite{wang2022speaker}.
+            \item Late sampling can result in “partial dysarthric pronunciation patterns incorporated into the reconstructed speech”.
+            \item Can be mitigated by fine-tuning, but there's no guarantee users will find product expressive.
+            \item There is somewhat of a trade-off between naturalness and speaker similarity.
+        \end{itemize}
+    \end{block}
 \end{frame}
 
 \begin{frame}{Challenge: Is speech synthesis reliably accessible to users?}
-
-To use a speech synthesis model offline, a GPU is often needed \cite{mandeel2022speaker}.
-
-StreamSpeech uses just one CPU core, at cost of lower MCD \cite{ieee2018streams}.
-
-Not appropriate for current use, but a proof of future concept.
-
+    \begin{block}{Ussability:}
+        \begin{itemize}
+            \item To use a speech synthesis model offline, a GPU is often needed \cite{mandeel2022speaker}.
+            \item StreamSpeech uses just one CPU core, at cost of lower MCD \cite{shopov2023streamspeech}.
+            \begin{itemize}
+                \item Not appropriate for current use, but a proof of future concept.
+            \end{itemize}
+        \end{itemize}
+    \end{block}
 \end{frame}
 
 \begin{frame}{Solution: Use of Concepts like Transfer Learning}
-
-Transfer Learning is a process where knowledge gained through one task or dataset is used to enhance the models performance for a related task \cite{torrey2010transfer}. 
-
-Hidden Markov Model (HMM) was standard for most early work in speech synthesis and voice banking.
-
-Neural TTS is newer, though it requires more data than HMM, it also possesses an increased naturalness.
-
+    \begin{block}{Transfer learning:}
+        \begin{itemize}
+            \item Transfer Learning is a process where knowledge gained through one task or dataset is used to enhance the models performance for a related task \cite{torrey2010transfer}. 
+            \item  Hidden Markov Model (HMM) was standard for most early work in speech synthesis and voice banking.
+            \item Neural TTS is newer, though it requires more data than HMM, it also possesses an increased naturalness.
+        \end{itemize}
+    \end{block}
 \end{frame}
 
 \begin{frame}{Solution: Development of Naturalness in Newer Models}
-
-Naturalness - how closely a TTS speech mimics a humans, more qualitative measure than accuracy which is measured in MOS.
-
-Tacotron 2 - has already been applied and used by those with MND and Dysarthria.
-
-Neural HMM - proposed altered model of Tacotron 2, requires less data and has great potential for those with MND.
-
+    \begin{block}{Naturalness development:}
+        \begin{itemize}
+            \item \textbf{Naturalness} - how closely a TTS speech mimics a humans, more qualitative measure than accuracy which is measured in MOS.
+            \item \textbf{Tacotron 2} - has already been applied and used by those with MND and Dysarthria. 
+            \item \textbf{Neural HMM} - proposed altered model of Tacotron 2, requires less data and has great potential for those with MND.
+        \end{itemize}
+    \end{block}
 \end{frame}
