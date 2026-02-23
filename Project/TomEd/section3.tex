@@ -1,83 +1,70 @@
+\begin{frame}{Results: Robustness and Reliability}
 
-\begin{frame}{Robustness and Reliability}
-    \begin{columns}[t]
-        \begin{column}{0.5\textwidth}
-            \begin{block}{Robustness}
-                \begin{itemize}
-                    \item Long-form synthesis instability 
-                    \begin{itemize}
-                        \item Prosody drift \cite{oord2016wavenet}
-                        \item Repeated / skipped words \cite{tacotron2_blog}
-                    \end{itemize}
-                    \item Out of distribution inputs
-                    \begin{itemize}
-                        \item Rare names and abbreviations
-                        \item Unseen speakers or accents \cite{survey2023diffusion}
-                    \end{itemize}
-                    \item Low-resource languages reduce model stability \cite{lrspeech2020}
-                \end{itemize}
-            \end{block}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{block}{Reliability}
-                \begin{itemize}
-                    \item Modern systems at near human-level naturalness
-                    \begin{itemize}
-                        \item Human speech: MOS $\approx 4.58$
-                        \item Tacotron 2: MOS $\approx 4.53$ \cite{shen2017tacotron2}
-                        \item VITS: MOS $\approx 4.4$ \cite{kim2021vits}
-                    \end{itemize}
-                \end{itemize}
-            \end{block}
-        \end{column}
-    \end{columns}
+    \begin{block}{Robustness:}
+        \begin{itemize}
+            \item Long-form synthesis instability 
+            \begin{itemize}
+                \item Prosody drift. \cite{oord2016wavenet}
+                \item Repeated / skipped words. \cite{shen2017tacotron2}
+            \end{itemize}
+            \item Out of distribution inputs
+            \begin{itemize}
+                \item Rare names and abbreviations
+                \item Unseen speakers or accents. \cite{lui2023survey}
+            \end{itemize}
+            \item Low-resource languages reduce model stability. \cite{luo2020lrspeech}
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Reliability:}
+        \begin{itemize}
+            \item Modern systems at near human-level naturalness
+            \begin{itemize}
+                \item Human speech: MOS $\approx 4.58$
+                \item Tacotron 2: MOS $\approx 4.53$ \cite{shen2017tacotron2}
+                \item VITS: MOS $\approx 4.4$ \cite{kim2021conditional}
+            \end{itemize}
+        \end{itemize}
+    \end{block}
 \end{frame}
 
-\begin{frame}{Perspectives of people with MND}
-    \begin{columns}[t]
-    \begin{column}{0.5\textwidth}
-        \begin{block}{Input}
-            \begin{itemize}
-                \item Uniformity of language - Person 12 \cite{Valencia2023}
-                %"If the system [LLMs to expand text] is being used in the future, are all AAC users going to talk the same way?"
-                \item Effort to voice bank - Person 10 \cite{Cave2021}
-                %"I don't think it's worth it for the amount of time that I will live for"
-                \item Complexity of speech synthesis systems - Person 4 \cite{Cave2021}
-                %"[something] simple and dedicated to being your speaker with the right keypad no logging in no other apps"
-            \end{itemize}
-        \end{block}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-        \begin{block}{Output}
-            \begin{itemize}
-                \item Preservation of Identity - Person 8 \cite{Cave2021}
-                %"his disease is so so so dreadful it takes away everything ... The voice helps me retain something of me"
-                \item Denial - Ian Barry \cite{Barry2025}
-                %"I chose to maintain the illusion of normality", "Denial became my daily shield" 
-                \item Not ready - Person 9 \cite{Cave2021}
-                %"I didn't want to think about that yet"
-            \end{itemize}
-        \end{block}
-    \end{column}
-    \end{columns}
-   
-
+\begin{frame}{Results: Perspectives of people with MND}
+    \begin{block}{Input:}
+        \begin{itemize}
+            \item Uniformity of language - Person 12 \cite{valencia2023the}
+            %"If the system [LLMs to expand text] is being used in the future, are all AAC users going to talk the same way?"
+            \item Effort to voice bank - Person 10 \cite{cave2020voice}
+            %"I don't think it's worth it for the amount of time that I will live for"
+            \item Complexity of speech synthesis systems - Person 4 \cite{cave2020voice}
+            %"[something] simple and dedicated to being your speaker with the right keypad no logging in no other apps"
+        \end{itemize}
+    \end{block}
+    \begin{block}{Output:}
+        \begin{itemize}
+            \item Preservation of Identity - Person 8 \cite{cave2020voice}
+            %"his disease is so so so dreadful it takes away everything ... The voice helps me retain something of me"
+            \item Denial - Ian Barry \cite{barry2025banking}
+            %"I chose to maintain the illusion of normality", "Denial became my daily shield" 
+            \item Not ready - Person 9 \cite{cave2020voice}
+            %"I didn't want to think about that yet"
+        \end{itemize}
+    \end{block}
 \end{frame}
 
-\begin{frame}{Evaluation of Speech Synthesis}
+\begin{frame}{Results: Evaluation of Speech Synthesis}
     \begin{columns}[t]
     \begin{column}{0.5\textwidth}
-        \begin{block}{Bad}
+        \begin{block}{Bad:}
             \begin{itemize}
-                \item Hard to use \cite{Valencia2023}
+                \item Hard to use \cite{valencia2023the}
                 \begin{itemize}
                     \item Complexity
                     \item Effort 
                 \end{itemize}
                 %SS users have expressed how the Technological complexity of the systems along with the physical and mental effort of using them makes them hard to use. This often leads to a reduction in communication.
-                \item Emotionless \cite{Michel2025}
+                \item Emotionless \cite{michael2025representation}
                 %SS is still very much imperfect. Synthesised voices while improving every year, still lack the emotional expressiveness of the human voice. 
-                \item Professional support \cite{Cave2021, Jackson2025}
+                \item Professional support \cite{cave2020voice, jackson2025stage}
                 \begin{itemize}
                     \item Knowledge of the future
                     \item Access to speech synthesis
@@ -87,18 +74,18 @@
         \end{block}
     \end{column}
     \begin{column}{0.5\textwidth}
-        \begin{block}{Good}
+        \begin{block}{Good:}
             \begin{itemize}
                 \item Retains identity
                 %Many people with MND and their families agree it helps them retain a sense of their identity, having the voice sound like them. They express how banking their voice allows them to take control of this aspect of their identity.
-                \item Predictive text \cite{Valencia2023}
+                \item Predictive text \cite{valencia2023the}
                 \begin{itemize}
                     \item 11/12 found it useful
                     \item Privacy concerns
                     \item Practical concerns
                 \end{itemize}
                 %Predictive text has been shown to be exceptionally useful to SS users, with 11/12 members in Valencia's study finding LLM augmented communication moderately or more useful. Although it acts as a partial solution to the difficulty of using SS devices, there are ethical concerns about privacy and practical concerns about the portability of LLMs. 
-                \item Maintain connections \cite{Cave2021, Leite2017}
+                \item Maintain connections \cite{cave2020voice, lavoisier2017dysarthria}
                 %It has also been shown that SS helps people with MND retain connections. This is extremely important as it has been shown that QoL directly decreases with voice deterioration. 
             \end{itemize}
         \end{block}
@@ -106,22 +93,22 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Future of Speech Synthesis}
+\begin{frame}{Summary: Future of Speech Synthesis}
     \begin{columns}[t]
         \begin{column}{0.5\textwidth}
-            \begin{block}{How the Technology May Look}
+            \begin{block}{How the Technology May Look:}
                 \begin{itemize}
-                    \item Highly natural near-human expressive voices \cite{kim2021vits}
-                    \item Real-time adaptive speech for interactive systems \cite{survey2023diffusion}
-                    \item Multi-accent, multi-language support \cite{zhang2024multilingual, lrspeech2020}
+                    \item Highly natural near-human expressive voices \cite{kim2021conditional}
+                    \item Real-time adaptive speech for interactive systems \cite{lui2023survey}
+                    \item Multi-accent, multi-language support \cite{zhang2024multilingual, luo2020lrspeech}
                     \item Personalised voices from a few seconds of audio \cite{wang2023valle}
                 \end{itemize}
             \end{block}
         \end{column}
         \begin{column}{0.5\textwidth}
-            \begin{block}{Potential Applications}
+            \begin{block}{Potential Applications:}
                 \begin{itemize}
-                    \item More accessible for speech-impaired users \cite{lrspeech2020}
+                    \item More accessible for speech-impaired users \cite{luo2020lrspeech}
                     \item Real time translation \cite{zhang2024multilingual}
                     \item Widespread AI-powered virtual assistants
                     \item Interactive education aids \cite{fakir2025tts}
@@ -131,24 +118,24 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Future Work}
+\begin{frame}{Summary: Future Work}
     \begin{columns}[t]
     \begin{column}{0.5\textwidth}
-        \begin{block}{Limited Studies}
+        \begin{block}{Limited Studies:}
             \begin{itemize}
                 \item Limited participant size.
                 %We found very few studies on speech synthesis that contained more than 20 participants. A large scale review is desperately needed to provide reliable evidence into the experiences of people with MND who use SS.
-                \item Limited research into how voice characteristics affect speech synthesis. \cite{Michel2025}
+                \item Limited research into how voice characteristics affect speech synthesis. \cite{michael2025representation}
                 %There is also very little research into how accents, speech patterns, and dialect variations affect different speech synthesis models. 
                 \item Limited research into late stage participants. 
                 %Most studies focus on the experiences and perspectives of people with MND during the early stages. This results in a large bias towards those with early stage MND, and thus may not reflect the views of those in the later stages of MND. Further research interviewing and obtaining the perspectives of these users would provide significant insight both academically, and to those with early stage MND so they can be better prepared for the future. 
-                \item Limited research exploring views on speech synthesis throughout disease progression. \cite{Barry2025}
+                \item Limited research exploring views on speech synthesis throughout disease progression. \cite{barry2025banking}
                 %There is very little research that continually explores the experiences of those with MND throughout the disease progression. Only Barry's paper on his personal experience covers a timeframe longer than 2 years. Insight into this area is much needed, as it can help prepare those with MND, and provide advise for what to do while in the early stages to maintain quality of life.
             \end{itemize}
         \end{block}
     \end{column}
     \begin{column}{0.5\textwidth}
-        \begin{block}{Objective Measures}
+        \begin{block}{Objective Measures:}
             \begin{itemize}
                 \item Current measures (MOS, ALSFR, MCD)
                 \item Neural Network $\neq$ Objective.
