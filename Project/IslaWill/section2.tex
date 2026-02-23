@@ -1,46 +1,50 @@
 \begin{frame}{How feasible is it to make an accurate voice representation with few voice samples?}
 
-Five minutes of speech yiels\cite{zhou2024thu}
-\begin{itemize}
-    \item Naturalness MOS as high as 3.97.
-    \item Speaker similarity MOS of 4.25.
-\end{itemize}
+    \begin{block}{Voice Banking:}
+        Five minutes of speech yields\cite{zhou2024thu}
+        \begin{itemize}
+            \item Naturalness MOS as high as 3.97.
+            \item Speaker similarity MOS of 4.25.
+        \end{itemize}
+    \end{block}
 
-Required samples may be more than an affected individual may have.
+    \begin{block}{Problems:}
+        Required samples may be more than an affected individual may have.
 
-Limited means of reducing silences and scratching sounds. \cite{peng2024voicecraft}.
+        Limited means of reducing silences and scratching sounds. \cite{peng2024voicecraft}.
 
-Improved by training with Human Feedback \cite{chen2024humanfeedback}.%discuss how it can only be SOMEWHAT improved (resource is worth a read.)
+        Improved by training with Human Feedback \cite{chen2024humanfeedback}.%discuss how it can only be SOMEWHAT improved (resource is worth a read.)
+    \end{block}
 
 \end{frame}
 
 \begin{frame}{Challenge: Is similarity to the affected individual's voice samples always ideal?}
+    \begin{block}{Achieving Similarity:}
+        An individual may be unlikely to have sufficient recordings. \cite{wang2022speaker}.
 
-An individual may be unlikely to have sufficient recordings. \cite{ieee2018mnd}.
+        Late sampling can result in “partial dysarthric pronunciation patterns incorporated into the reconstructed speech”.
 
-Late sampling can result in “partial dysarthric pronunciation patterns incorporated into the reconstructed speech”.
+        Mitigated by fine-tuning, but without guarantee of expressive quality.
 
-Mitigated by fine-tuning, but without guarantee of expressive quality.
-
-Trade-off between naturalness and speaker similarity.
-
+        Trade-off between naturalness and speaker similarity.
+    \end{block}
 \end{frame}
 
 \begin{frame}{Challenge: Is speech synthesis reliably accessible to users?}
+    \begin{block}{Accessability:}
+        To use a speech synthesis model offline, a GPU is usually needed. \cite{mandeel2022speaker}.
 
-To use a speech synthesis model offline, a GPU is usually needed. \cite{mandeel2022speaker}.
+        StreamSpeech uses just one CPU core, at the cost of lower MCD. \cite{shopov2023streamspeech}.
 
-StreamSpeech uses just one CPU core, at the cost of lower MCD. \cite{ieee2018streams}.
-
-Not appropriate for current use, but a proof of future concept.
-
+        Not appropriate for current use, but a proof of future concept.
+    \end{block}
 \end{frame}
 
 \begin{frame}{Solution: Use of Concepts like Transfer Learning}
     \begin{block}{Transfer learning:}
         \begin{itemize}
             \item Transfer Learning is a process where knowledge gained through one task or dataset is used to enhance the models performance for a related task \cite{torrey2010transfer}. 
-            \item  Hidden Markov Model (HMM) was standard for most early work in speech synthesis and voice banking.
+            \item Hidden Markov Model (HMM) was standard for most early work in speech synthesis and voice banking.
             \item Neural TTS is newer, though it requires more data than HMM, it also possesses an increased naturalness.
         \end{itemize}
     \end{block}
